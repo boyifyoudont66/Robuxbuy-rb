@@ -1,4 +1,4 @@
-<?php
+
 if (isset($_POST["ref"])|| isset($_POST["num"]) || is_string($_POST["name"]) || isset($_POST["name"])){
 
 	if (is_numeric($_POST["ref"]) || is_numeric($_POST["num"])){
